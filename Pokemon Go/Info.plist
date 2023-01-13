@@ -25,5 +25,12 @@
 	<array>
 		<string>remote-notification</string>
 	</array>
+	<key>UIRequiredDeviceCapabilities</key>
+	<array>
+		<string>gps</string>
+		<string>location-services</string>
+	</array>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>Necessario acesso à sua localização para funcionamento do app</string>
 </dict>
 </plist>
